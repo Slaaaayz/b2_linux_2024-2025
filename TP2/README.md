@@ -181,3 +181,12 @@ Enter pass phrase for CA.key:
 
 **🌞 Prouvez avec un curl que vous accédez au site web**
 
+```bash
+slayz@debian:~/Repo Git/b2_linux_2024-2025/TP2$ curl -k https://www.supersite.com/
+[{"id":"bob","name":1},{"id":"martin","name":2},{"id":"pikachu","name":3},{"id":"shibboleth","name":4}]
+```
+
+**🌞 Ajouter le certificat de la CA dans votre navigateur**
+
+![certif](./img/certif.png)
+
